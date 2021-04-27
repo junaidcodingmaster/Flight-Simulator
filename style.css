@@ -1,0 +1,142 @@
+body {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  background-image: url("images/background-img.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0%;
+  padding: 0%;
+
+}
+.container {
+  height: 100%;
+  width: 100%;
+  
+}
+
+/* popup box style */
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  font-family: 'Raleway', sans-serif;
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 5vh;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #ff000f;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.popup-logo {
+  font-size: 5vh;
+  font-family: 'Raleway', sans-serif;
+}
+
+.keyboard-contoals img {
+  height: 100vh;
+  width: 179vh;
+}
+
+.keyboard-contoals p {
+  font-size: 3vh;
+  text-align: end;
+  font-family: 'Raleway', sans-serif;
+}
+.logo {
+  font-family: 'Raleway', sans-serif;
+  width: 400px;
+  height: 200px;
+}
+h1 {
+  font-size: 10vh;
+}
+/* Safari syntax */
+:-webkit-full-screen {
+  background-image: url("images/fullscreen-background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* IE11 */
+:-ms-fullscreen {
+  background-image: url("images/fullscreen-background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Standard syntax */
+:fullscreen {
+  background-image: url("images/fullscreen-background.png");
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.logo img {
+height: 20vh;
+width: 40vh;
+}
+.button {
+  position: relative;
+  background-color: rgb(0, 183, 255);
+  border: none;
+  font-size: 28px;
+  color: #FFFFFF;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+.button1 {border-radius: 20px;}
+
+.button:after {
+  content: "";
+  background: #f1f1f1;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+.button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+
